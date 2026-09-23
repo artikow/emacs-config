@@ -1,5 +1,25 @@
 # Compiled
 *.elc
+*.eln
+eln-cache/
+
+# Installed packages
+elpa/
+
+# Backup, auto-save and lock files
+*~
+\#*\#
+.\#*
+auto-save-list/
+
+# Runtime state written by Emacs and packages
+recentf.eld
+places.eld
+history
+network-security.data
+tramp
+transient/
+url/
 
 # Packaging
 .cask/
@@ -10,8 +30,8 @@
 # Built distribution
 dist/
 
-# Backup files
-*~
+# macOS
+.DS_Store
 
-# Undo-tree save-files
-*.~undo-tree
+# Emacs runtime output
+var/
